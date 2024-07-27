@@ -17,17 +17,11 @@ The Fortune 500 list of companies includes only publicly traded companies, inclu
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    git clone https://github.com/mndebelelt/Web-Scraping-Wikipedia.git
+    cd Web-Scraping-Wikipedia
     ```
 
-2. Create a virtual environment and activate it:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. Install the required packages:
+2. Install the required packages:
     ```bash
     pip install -r requirements.txt
     ```
@@ -35,16 +29,11 @@ The Fortune 500 list of companies includes only publicly traded companies, inclu
 ## Usage
 
 1. Ensure you have all the dependencies installed.
-2. Run the web scraping script:
-    ```bash
-    python scrape_companies.py
-    ```
-
-3. After the script runs, the data will be saved to a CSV file in the project directory.
+2. Open and run the Jupyter notebook `Web Scraping.ipynb` to perform the web scraping and export the data to a CSV file.
 
 ## Project Structure
 
-- `scrape_companies.py`: The main script for web scraping.
+- `Web Scraping.ipynb`: The Jupyter notebook containing the web scraping project.
 - `requirements.txt`: List of dependencies required for the project.
 - `README.md`: Project description and instructions.
 
@@ -53,6 +42,7 @@ The Fortune 500 list of companies includes only publicly traded companies, inclu
 - pandas
 - requests
 - beautifulsoup4
+- notebook
 
 You can install the dependencies using:
 ```bash
